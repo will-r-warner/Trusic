@@ -1,0 +1,19 @@
+@import "../../../../assets/styles/variables.scss";
+
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.city-name {
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 2rem;
+  color: $primary-color;
+}
+
+.map-marker-icon {
+  height: 4rem;
+  color: $primary-color;
+}

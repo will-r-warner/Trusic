@@ -1,0 +1,11 @@
+<h3>Upcoming Shows</h3>
+<div class="card-container">
+  <app-home-upcoming-show-card
+    [band]="show.band"
+    [date]="show.date"
+    [time]="show.time"
+    [location]="show.location"
+    *ngFor="let show of shows"
+  >
+  </app-home-upcoming-show-card>
+</div>
