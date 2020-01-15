@@ -1,0 +1,22 @@
+.featured-artist {
+  position: relative;
+  width: 100%;
+}
+
+.featured-artist-img {
+  width: 100%;
+}
+
+.featured-artist-text {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem 0;
+  text-align: center;
+}
