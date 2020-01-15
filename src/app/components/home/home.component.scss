@@ -3,3 +3,8 @@
   overflow-y: scroll;
   margin: 0 1.5rem;
 }
+
+:host::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}

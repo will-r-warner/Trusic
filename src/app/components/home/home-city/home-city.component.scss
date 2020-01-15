@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 2rem 0;
 }
 
 .city-name {
@@ -16,4 +17,5 @@
 .map-marker-icon {
   height: 4rem;
   color: $primary-color;
+  margin-bottom: 1rem;
 }
