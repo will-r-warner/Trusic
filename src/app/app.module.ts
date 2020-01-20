@@ -11,6 +11,7 @@ import { FooterIconComponent } from "./components/footer/footer-icon/footer-icon
 import { HomeFeaturedArtistsComponent } from './components/home/home-featured-artists/home-featured-artists.component';
 import { HomeUpcomingShowsComponent } from './components/home/home-upcoming-shows/home-upcoming-shows.component';
 import { HomeUpcomingShowCardComponent } from './components/home/home-upcoming-show-card/home-upcoming-show-card.component';
+import { LandingComponent } from './components/landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeUpcomingShowCardComponent } from './components/home/home-upcoming-s
     FooterIconComponent,
     HomeFeaturedArtistsComponent,
     HomeUpcomingShowsComponent,
-    HomeUpcomingShowCardComponent
+    HomeUpcomingShowCardComponent,
+    LandingComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
