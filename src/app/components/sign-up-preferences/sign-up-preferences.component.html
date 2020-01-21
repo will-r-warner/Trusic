@@ -1,0 +1,10 @@
+<div></div>
+<a routerLink="/home" class="btn-next">Next</a>
+
+<h2>Personalize your Homepage</h2>
+
+<p>Select at least 3 genres.</p>
+
+<div class="genre-container">
+  <button *ngFor="let genre of genres">{{ genre }}</button>
+</div>

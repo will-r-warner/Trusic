@@ -1,0 +1,24 @@
+<div class="top-container">
+  <img class="logo" src="assets/icons/trusic-logo.svg" alt="Trusic logo" />
+
+  <h1 class="title">TRUSIC</h1>
+  <p class="sub-title">Music worth traveling to.</p>
+
+  <form class="form">
+    <input
+      class="form-input"
+      type="text"
+      name="username"
+      placeholder="USERNAME"
+    />
+    <input class="form-input" type="text" name="email" placeholder="PASSWORD" />
+    <button class="form-submit" type="submit">Sign In</button>
+  </form>
+</div>
+
+<div class="sign-up-text">
+  Don't have an account?
+  <a [routerLink]="['/signup']" class="sign-up-link">
+    Sign up.
+  </a>
+</div>
