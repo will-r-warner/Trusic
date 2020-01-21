@@ -12,6 +12,8 @@ import { HomeFeaturedArtistsComponent } from './components/home/home-featured-ar
 import { HomeUpcomingShowsComponent } from './components/home/home-upcoming-shows/home-upcoming-shows.component';
 import { HomeUpcomingShowCardComponent } from './components/home/home-upcoming-show-card/home-upcoming-show-card.component';
 import { LandingComponent } from './components/landing/landing.component';
+import { SignInComponent } from './components/sign-in/sign-in.component';
+import { SignUpComponent } from './components/sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { LandingComponent } from './components/landing/landing.component';
     HomeFeaturedArtistsComponent,
     HomeUpcomingShowsComponent,
     HomeUpcomingShowCardComponent,
-    LandingComponent
+    LandingComponent,
+    SignInComponent,
+    SignUpComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
