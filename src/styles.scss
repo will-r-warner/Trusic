@@ -1,8 +1,11 @@
+@import "assets/styles/variables.scss";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  color: $primary-color;
+  font-family: $secondary-font-family;
 }
 
 body {
