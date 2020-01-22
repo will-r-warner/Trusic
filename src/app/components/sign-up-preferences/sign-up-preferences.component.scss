@@ -1,0 +1,66 @@
+@import "../../../assets/styles/variables.scss";
+
+:host {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.next {
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2rem;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.next__link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.next__text {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.next__icon {
+  height: 1.5rem;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__title {
+  margin-bottom: 1rem;
+}
+
+.main__sub-title {
+  margin-bottom: 1rem;
+}
+
+.genres {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.genres__btn {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $primary-color;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin: 0.25rem;
+}

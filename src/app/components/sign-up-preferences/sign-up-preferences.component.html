@@ -1,10 +1,20 @@
-<div></div>
-<a routerLink="/home" class="btn-next">Next</a>
+<nav class="next">
+  <a routerLink="/home" class="next__link">
+    <span class="next__text">Next</span>
+    <img
+      class="next__icon"
+      src="assets/icons/angle-right-solid.svg"
+      alt="angle right icon"
+    />
+  </a>
+</nav>
 
-<h2>Personalize your Homepage</h2>
+<main class="main">
+  <h2 class="main__title">Personalize your Homepage</h2>
 
-<p>Select at least 3 genres.</p>
+  <p class="main__sub-title">Select at least 3 genres.</p>
 
-<div class="genre-container">
-  <button *ngFor="let genre of genres">{{ genre }}</button>
-</div>
+  <div class="genres">
+    <button class="genres__btn" *ngFor="let genre of genres">{{ genre }}</button>
+  </div>
+</main>
