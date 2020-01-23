@@ -1,11 +1,11 @@
 import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: "app-home-upcoming-shows",
-  templateUrl: "./home-upcoming-shows.component.html",
-  styleUrls: ["./home-upcoming-shows.component.scss"]
+  selector: "app-city-upcoming-shows",
+  templateUrl: "./city-upcoming-shows.component.html",
+  styleUrls: ["./city-upcoming-shows.component.scss"]
 })
-export class HomeUpcomingShowsComponent implements OnInit {
+export class CityUpcomingShowsComponent implements OnInit {
   shows = [
     {
       band: "Band Name",

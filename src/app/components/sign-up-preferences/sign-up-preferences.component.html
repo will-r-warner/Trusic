@@ -1,5 +1,5 @@
 <nav class="next">
-  <a routerLink="/home" class="next__link">
+  <a class="next__link">
     <span class="next__text">Next</span>
     <img
       class="next__icon"
@@ -15,6 +15,8 @@
   <p class="main__sub-title">Select at least 3 genres.</p>
 
   <div class="genres">
-    <button class="genres__btn" *ngFor="let genre of genres">{{ genre }}</button>
+    <button class="genres__btn" *ngFor="let genre of genres">
+      {{ genre }}
+    </button>
   </div>
 </main>

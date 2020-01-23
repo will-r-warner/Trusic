@@ -5,12 +5,12 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { FooterComponent } from "./components/footer/footer.component";
-import { HomeComponent } from "./components/home/home.component";
-import { HomeCityComponent } from "./components/home/home-city/home-city.component";
+import { CityComponent } from "./components/city/city.component";
+import { CityNameComponent } from "./components/city/city-name/city-name.component";
 import { FooterIconComponent } from "./components/footer/footer-icon/footer-icon.component";
-import { HomeFeaturedArtistsComponent } from "./components/home/home-featured-artists/home-featured-artists.component";
-import { HomeUpcomingShowsComponent } from "./components/home/home-upcoming-shows/home-upcoming-shows.component";
-import { HomeUpcomingShowCardComponent } from "./components/home/home-upcoming-show-card/home-upcoming-show-card.component";
+import { CityFeaturedArtistsComponent } from "./components/city/city-featured-artists/city-featured-artists.component";
+import { CityUpcomingShowsComponent } from "./components/city/city-upcoming-shows/city-upcoming-shows.component";
+import { CityUpcomingShowCardComponent } from "./components/city/city-upcoming-show-card/city-upcoming-show-card.component";
 import { LandingComponent } from "./components/landing/landing.component";
 import { SignInComponent } from "./components/sign-in/sign-in.component";
 import { SignUpComponent } from "./components/sign-up/sign-up.component";
@@ -21,12 +21,12 @@ import { SignUpPreferencesComponent } from "./components/sign-up-preferences/sig
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent,
-    HomeCityComponent,
+    CityComponent,
+    CityNameComponent,
     FooterIconComponent,
-    HomeFeaturedArtistsComponent,
-    HomeUpcomingShowsComponent,
-    HomeUpcomingShowCardComponent,
+    CityFeaturedArtistsComponent,
+    CityUpcomingShowsComponent,
+    CityUpcomingShowCardComponent,
     LandingComponent,
     SignInComponent,
     SignUpComponent,
