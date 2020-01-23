@@ -1,0 +1,10 @@
+<h2 class="title">LOCAL ARTISTS</h2>
+
+<div class="albums">
+  <img
+    class="album"
+    [src]="album.src"
+    [alt]="album.alt"
+    *ngFor="let album of albums"
+  />
+</div>

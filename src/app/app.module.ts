@@ -15,6 +15,10 @@ import { LandingComponent } from "./components/landing/landing.component";
 import { SignInComponent } from "./components/sign-in/sign-in.component";
 import { SignUpComponent } from "./components/sign-up/sign-up.component";
 import { SignUpPreferencesComponent } from "./components/sign-up-preferences/sign-up-preferences.component";
+import { HomeComponent } from "./components/home/home.component";
+import { HomePlaylistComponent } from "./components/home/home-playlist/home-playlist.component";
+import { HomeArtistsComponent } from './components/home/home-artists/home-artists.component';
+import { HomeSightsComponent } from './components/home/home-sights/home-sights.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { SignUpPreferencesComponent } from "./components/sign-up-preferences/sig
     LandingComponent,
     SignInComponent,
     SignUpComponent,
-    SignUpPreferencesComponent
+    SignUpPreferencesComponent,
+    HomeComponent,
+    HomePlaylistComponent,
+    HomeArtistsComponent,
+    HomeSightsComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

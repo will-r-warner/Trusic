@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.img {
+  width: 80%;
+}
