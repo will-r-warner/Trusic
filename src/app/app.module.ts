@@ -19,6 +19,8 @@ import { HomeComponent } from "./components/home/home.component";
 import { HomePlaylistComponent } from "./components/home/home-playlist/home-playlist.component";
 import { HomeArtistsComponent } from './components/home/home-artists/home-artists.component';
 import { HomeSightsComponent } from './components/home/home-sights/home-sights.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,7 @@ import { HomeSightsComponent } from './components/home/home-sights/home-sights.c
     HomeArtistsComponent,
     HomeSightsComponent
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })],
   providers: [],
   bootstrap: [AppComponent]
 })
