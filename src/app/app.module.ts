@@ -1,5 +1,6 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
+import { ServiceWorkerModule } from "@angular/service-worker";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -17,10 +18,9 @@ import { SignUpComponent } from "./components/sign-up/sign-up.component";
 import { SignUpPreferencesComponent } from "./components/sign-up-preferences/sign-up-preferences.component";
 import { HomeComponent } from "./components/home/home.component";
 import { HomePlaylistComponent } from "./components/home/home-playlist/home-playlist.component";
-import { HomeArtistsComponent } from './components/home/home-artists/home-artists.component';
-import { HomeSightsComponent } from './components/home/home-sights/home-sights.component';
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
+import { HomeArtistsComponent } from "./components/home/home-artists/home-artists.component";
+import { HomeSightsComponent } from "./components/home/home-sights/home-sights.component";
+import { environment } from "../environments/environment";
 
 @NgModule({
   declarations: [
@@ -42,7 +42,13 @@ import { environment } from '../environments/environment';
     HomeArtistsComponent,
     HomeSightsComponent
   ],
-  imports: [BrowserModule, AppRoutingModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ServiceWorkerModule.register("ngsw-worker.js", {
+      enabled: environment.production
+    })
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
