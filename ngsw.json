@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1579976271799,
+  "timestamp": 1580058989786,
   "index": "/Trusic/index.html",
   "assetGroups": [
     {
@@ -12,6 +12,7 @@
         "/Trusic/index.html",
         "/Trusic/main-es2015.afa946f677fa5f9dd776.js",
         "/Trusic/main-es5.afa946f677fa5f9dd776.js",
+        "/Trusic/manifest.webmanifest",
         "/Trusic/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/Trusic/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
         "/Trusic/runtime-es2015.edb2fcf2778e7bf1d426.js",
@@ -26,6 +27,7 @@
       "updateMode": "prefetch",
       "urls": [
         "/Trusic/assets/icons/angle-right-solid.svg",
+        "/Trusic/assets/icons/apple-touch-logo.png",
         "/Trusic/assets/icons/home-solid.svg",
         "/Trusic/assets/icons/icon-128x128.png",
         "/Trusic/assets/icons/icon-144x144.png",
@@ -58,6 +60,7 @@
   "dataGroups": [],
   "hashTable": {
     "/Trusic/assets/icons/angle-right-solid.svg": "61ef0501b090cd2d8d7b8b255e4072555b56d2be",
+    "/Trusic/assets/icons/apple-touch-logo.png": "c0f1ff8f02cb1707d1a2c2e58d803fe5788dfd1c",
     "/Trusic/assets/icons/home-solid.svg": "66a45b48a3046a3da8a0a5ec9b2a1f226b65e6e2",
     "/Trusic/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/Trusic/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -84,9 +87,10 @@
     "/Trusic/assets/styles/variables.scss": "db1fd3bee1b1490e3fd2893a48b3f4fd20be794a",
     "/Trusic/background.01dde33aa18199c55d6f.png": "7aac581765b57ee60505ed7281d38e4b63374253",
     "/Trusic/favicon.ico": "be25583ee99c0a1a81ac4bb50f40f8604e7ebab1",
-    "/Trusic/index.html": "a84e4efb7c7869abf14327a1e1644393d006fbb1",
+    "/Trusic/index.html": "aa5ac447a44c71db42d47d260e1e4fd8deb43bf9",
     "/Trusic/main-es2015.afa946f677fa5f9dd776.js": "4829bf5f9022429f5c4790ea3b1fef8d00cc23b4",
     "/Trusic/main-es5.afa946f677fa5f9dd776.js": "6f0f0d47c184293f0c096fecfb7949fb67eb54b7",
+    "/Trusic/manifest.webmanifest": "9cf8ece6d35b8fcd12824a27b7cd1fe7df02f456",
     "/Trusic/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/Trusic/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
     "/Trusic/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
