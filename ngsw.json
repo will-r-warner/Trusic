@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1580058989786,
+  "timestamp": 1580060660558,
   "index": "/Trusic/index.html",
   "assetGroups": [
     {
@@ -41,7 +41,6 @@
         "/Trusic/assets/icons/map-marker-alt-solid.svg",
         "/Trusic/assets/icons/star-regular.svg",
         "/Trusic/assets/icons/trusic-logo.svg",
-        "/Trusic/assets/icons/trusic-logo_OLD.png",
         "/Trusic/assets/img/albums/album-1.jpg",
         "/Trusic/assets/img/albums/album-2.jpg",
         "/Trusic/assets/img/albums/album-3.jpg",
@@ -74,7 +73,6 @@
     "/Trusic/assets/icons/map-marker-alt-solid.svg": "1002bf84f44fbd3a4fa4f05c72e6e0f825a62098",
     "/Trusic/assets/icons/star-regular.svg": "7bb6623d976d09f1da146eb50e9f22515936b710",
     "/Trusic/assets/icons/trusic-logo.svg": "0ae2336a6098808ed4882959ee574b5ce153517f",
-    "/Trusic/assets/icons/trusic-logo_OLD.png": "d50e3af1515b8c13e0e28bb655a6d8e0fbbc5cab",
     "/Trusic/assets/img/albums/album-1.jpg": "9a8b17e21767a0c8e3f4a6026e9d4b239c5d4263",
     "/Trusic/assets/img/albums/album-2.jpg": "fd393705a7371607ad0f93034b7aa43aa359c8ec",
     "/Trusic/assets/img/albums/album-3.jpg": "e9e43294d1aef25c88c937b4020931bfac54256c",
