@@ -60,9 +60,20 @@ export class MapComponent implements AfterViewInit {
 
   private addMarkersToMap(): void {
     this.markers.forEach(marker => {
-      const newMarker = L.marker(marker.coordinates);
+      const newMarker = L.marker(marker.coordinates, {
+        icon: L.icon({
+          iconSize: [25, 41],
+          iconAnchor: [13, 41],
+          iconUrl: "leaflet/marker-icon.png",
+          shadowUrl: "leaflet/marker-shadow.png"
+        })
+      });
+
       newMarker.addTo(this.map);
-      newMarker.bindTooltip(marker.name, { direction: "top" });
+      newMarker.bindTooltip(marker.name, {
+        direction: "top",
+        offset: L.point(0, -30)
+      });
     });
   }
 
