@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from "@angular/core";
 export class FooterIconComponent implements OnInit {
   @Input() src: string;
   @Input() alt: string;
+  @Input() routerLink: string;
 
   constructor() {}
 
