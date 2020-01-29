@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1580064280308,
+  "timestamp": 1580269556094,
   "index": "/Trusic/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/Trusic/favicon.ico",
         "/Trusic/index.html",
-        "/Trusic/main-es2015.afa946f677fa5f9dd776.js",
-        "/Trusic/main-es5.afa946f677fa5f9dd776.js",
+        "/Trusic/main-es2015.5114eebc08e3ed52d659.js",
+        "/Trusic/main-es5.5114eebc08e3ed52d659.js",
         "/Trusic/manifest.webmanifest",
         "/Trusic/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/Trusic/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
         "/Trusic/runtime-es2015.edb2fcf2778e7bf1d426.js",
         "/Trusic/runtime-es5.edb2fcf2778e7bf1d426.js",
-        "/Trusic/styles.64a56190e615b779d66c.css"
+        "/Trusic/styles.dede5a0fa755bbabdca5.css"
       ],
       "patterns": []
     },
@@ -51,7 +51,10 @@
         "/Trusic/assets/img/featured-artist.png",
         "/Trusic/assets/img/sights/sight.png",
         "/Trusic/assets/styles/variables.scss",
-        "/Trusic/background.01dde33aa18199c55d6f.png"
+        "/Trusic/background.8de5660fffc034faeaa0.png",
+        "/Trusic/layers-2x.4f0283c6ce28e888000e.png",
+        "/Trusic/layers.a6137456ed160d760698.png",
+        "/Trusic/marker-icon.2273e3d8ad9264b7daa5.png"
       ],
       "patterns": []
     }
@@ -79,21 +82,24 @@
     "/Trusic/assets/img/albums/album-4.jpg": "800363edde86eefbea78b32da98ab20a9a672aa5",
     "/Trusic/assets/img/albums/album-5.jpg": "aaa426f41e99c1a2b7487fc0e05ac0f00b43da0b",
     "/Trusic/assets/img/albums/album-6.jpg": "a8109756239cda9d73f8096bf1120dbee034e15f",
-    "/Trusic/assets/img/background.png": "7aac581765b57ee60505ed7281d38e4b63374253",
-    "/Trusic/assets/img/featured-artist.png": "fd612fdd97d12f15f4e81e4300b8e2db444bc7c8",
+    "/Trusic/assets/img/background.png": "bb4548fa029b1fa399b9b717c0599bac2fa7506e",
+    "/Trusic/assets/img/featured-artist.png": "09caa9ce307fa38b368425ed014dcd6bc25299b3",
     "/Trusic/assets/img/sights/sight.png": "6312c94045edeb4ea297760aa54ffaa7a16b60ee",
     "/Trusic/assets/styles/variables.scss": "db1fd3bee1b1490e3fd2893a48b3f4fd20be794a",
-    "/Trusic/background.01dde33aa18199c55d6f.png": "7aac581765b57ee60505ed7281d38e4b63374253",
+    "/Trusic/background.8de5660fffc034faeaa0.png": "bb4548fa029b1fa399b9b717c0599bac2fa7506e",
     "/Trusic/favicon.ico": "be25583ee99c0a1a81ac4bb50f40f8604e7ebab1",
-    "/Trusic/index.html": "aa5ac447a44c71db42d47d260e1e4fd8deb43bf9",
-    "/Trusic/main-es2015.afa946f677fa5f9dd776.js": "4829bf5f9022429f5c4790ea3b1fef8d00cc23b4",
-    "/Trusic/main-es5.afa946f677fa5f9dd776.js": "6f0f0d47c184293f0c096fecfb7949fb67eb54b7",
+    "/Trusic/index.html": "790799c52478dd8c1293c4e8ca67e02a4bbd1a90",
+    "/Trusic/layers-2x.4f0283c6ce28e888000e.png": "152a162333e46d24f9d89f566312fc0c64011dee",
+    "/Trusic/layers.a6137456ed160d760698.png": "c9e7528e491a39232ba24a2706c6c739d6fb0f06",
+    "/Trusic/main-es2015.5114eebc08e3ed52d659.js": "410d4f6388e7b1ca12668e343e05eb546a101815",
+    "/Trusic/main-es5.5114eebc08e3ed52d659.js": "f592a2214fd4b81ef8d974aaad4ac011ac50773e",
     "/Trusic/manifest.webmanifest": "7181a1c0b822bd0dba1fea9c467f309ae49025b8",
+    "/Trusic/marker-icon.2273e3d8ad9264b7daa5.png": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
     "/Trusic/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/Trusic/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
     "/Trusic/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/Trusic/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/Trusic/styles.64a56190e615b779d66c.css": "42a2243bfb42af12001b79751688f525560c0a1f"
+    "/Trusic/styles.dede5a0fa755bbabdca5.css": "82a613831e9d006eaf615b209af3ef86f77d8c19"
   },
   "navigationUrls": [
     {
