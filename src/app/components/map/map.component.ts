@@ -60,7 +60,9 @@ export class MapComponent implements AfterViewInit {
 
   private addMarkersToMap(): void {
     this.markers.forEach(marker => {
-      L.marker(marker.coordinates, marker.name).addTo(this.map);
+      const newMarker = L.marker(marker.coordinates);
+      newMarker.addTo(this.map);
+      newMarker.bindTooltip(marker.name, { direction: "top" });
     });
   }
 
