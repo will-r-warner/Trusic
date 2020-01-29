@@ -21,6 +21,7 @@ import { HomePlaylistComponent } from "./components/home/home-playlist/home-play
 import { HomeArtistsComponent } from "./components/home/home-artists/home-artists.component";
 import { HomeSightsComponent } from "./components/home/home-sights/home-sights.component";
 import { environment } from "../environments/environment";
+import { MapComponent } from './components/map/map.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { environment } from "../environments/environment";
     HomeComponent,
     HomePlaylistComponent,
     HomeArtistsComponent,
-    HomeSightsComponent
+    HomeSightsComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
