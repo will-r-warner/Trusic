@@ -1,8 +1,16 @@
 <footer class="footer">
-  <app-footer-icon
-    *ngFor="let icon of icons"
-    [src]="icon.src"
-    [alt]="icon.alt"
-    [routerLink]="icon.routerLink"
-  ></app-footer-icon>
+  <div class="icon-container">
+    <app-footer-icon
+      *ngFor="let icon of icons"
+      [src]="icon.src"
+      [alt]="icon.alt"
+      [routerLink]="icon.routerLink"
+    ></app-footer-icon>
+  </div>
+
+  <div class="font-awesome-attribution">
+    Icons provided by FontAwesome via this
+    <a href="https://fontawesome.com/license/free" target="_blank">license</a>.
+    <br />Color of icons modified by site owner.
+  </div>
 </footer>
