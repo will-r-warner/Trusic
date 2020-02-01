@@ -46,7 +46,8 @@ export class MapComponent implements AfterViewInit {
   private initMap(): void {
     this.map = L.map("map", {
       center: [this.startCoordinates.lat, this.startCoordinates.lon],
-      zoom: 13
+      zoom: 13,
+      zoomControl: false
     });
 
     const tiles = L.tileLayer("http://tile.stamen.com/toner/{z}/{x}/{y}.png", {
