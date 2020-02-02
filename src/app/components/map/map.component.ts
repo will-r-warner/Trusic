@@ -50,11 +50,14 @@ export class MapComponent implements AfterViewInit {
       zoomControl: false
     });
 
-    const tiles = L.tileLayer("http://tile.stamen.com/toner/{z}/{x}/{y}.png", {
-      maxZoom: 19,
-      attribution:
-        'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
-    });
+    const tiles = L.tileLayer(
+      "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+      {
+        maxZoom: 19,
+        attribution:
+          'Map tiles by <a href="https://carto.com"/>Carto</a>, under <a href="https://carto.com/legal/">Free Basemaps Terms of Service</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+      }
+    );
 
     tiles.addTo(this.map);
   }
