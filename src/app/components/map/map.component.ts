@@ -68,8 +68,7 @@ export class MapComponent implements AfterViewInit {
         icon: L.icon({
           iconSize: [25, 41],
           iconAnchor: [13, 41],
-          iconUrl: "leaflet/marker-icon.png",
-          shadowUrl: "leaflet/marker-shadow.png"
+          iconUrl: "assets/icons/map-marker-alt-solid.svg"
         })
       });
 
