@@ -20,8 +20,8 @@ interface Marker {
 })
 export class MapComponent implements AfterViewInit {
   private map;
-  private showModal = false;
-  private activeMarker: Marker;
+  public showModal = false;
+  public activeMarker: Marker;
 
   private startCoordinates = { lat: 35.1495, lon: -90.049 };
 
