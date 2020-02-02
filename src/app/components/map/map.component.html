@@ -5,3 +5,11 @@
 </main>
 
 <app-footer></app-footer>
+
+<app-map-location-modal
+  *ngIf="showModal"
+  [name]="activeMarker.name"
+  [imgSrc]="activeMarker.imgSrc"
+  [description]="activeMarker.description"
+  (close)="onCloseModal()"
+></app-map-location-modal>

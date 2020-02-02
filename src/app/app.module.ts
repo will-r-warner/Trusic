@@ -22,6 +22,7 @@ import { HomeArtistsComponent } from "./components/home/home-artists/home-artist
 import { HomeSightsComponent } from "./components/home/home-sights/home-sights.component";
 import { environment } from "../environments/environment";
 import { MapComponent } from './components/map/map.component';
+import { MapLocationModalComponent } from './components/map/map-location-modal/map-location-modal.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { MapComponent } from './components/map/map.component';
     HomePlaylistComponent,
     HomeArtistsComponent,
     HomeSightsComponent,
-    MapComponent
+    MapComponent,
+    MapLocationModalComponent
   ],
   imports: [
     BrowserModule,

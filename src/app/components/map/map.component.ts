@@ -6,8 +6,10 @@ interface Coordinates {
   lon: number;
 }
 
-interface marker {
+interface Marker {
   name: string;
+  imgSrc: string;
+  description: string;
   coordinates: Coordinates;
 }
 
@@ -18,21 +20,42 @@ interface marker {
 })
 export class MapComponent implements AfterViewInit {
   private map;
+  private showModal = false;
+  private activeMarker: Marker;
 
   private startCoordinates = { lat: 35.1495, lon: -90.049 };
 
-  private markers = [
-    { name: "Graceland", coordinates: { lat: 35.045928, lon: -90.022947 } },
-    { name: "Sun Studio", coordinates: { lat: 35.139233, lon: -90.037717 } },
+  private markers: Marker[] = [
+    {
+      name: "Graceland",
+      imgSrc: "assets/img/sights/sight.png",
+      description: "The home of Elvis",
+      coordinates: { lat: 35.045928, lon: -90.022947 }
+    },
+    {
+      name: "Sun Studio",
+      imgSrc: "assets/img/sights/sight.png",
+      description: "Elvis recording studio",
+      coordinates: { lat: 35.139233, lon: -90.037717 }
+    },
     {
       name: "Stax Museum of American Soul Music",
+      imgSrc: "assets/img/sights/sight.png",
+      description: "Musuem of stuff",
       coordinates: { lat: 35.11577, lon: -90.031248 }
     },
     {
       name: "Rock 'n' Soul Museum",
+      imgSrc: "assets/img/sights/sight.png",
+      description: "Another museum of stuff",
       coordinates: { lat: 35.138524, lon: -90.052161 }
     },
-    { name: "Levitt Shell", coordinates: { lat: 35.145661, lon: -89.994753 } }
+    {
+      name: "Levitt Shell",
+      imgSrc: "assets/img/sights/sight.png",
+      description: "An outdoor amphitheater in Overton Park",
+      coordinates: { lat: 35.145661, lon: -89.994753 }
+    }
   ];
 
   constructor() {}
@@ -63,7 +86,7 @@ export class MapComponent implements AfterViewInit {
   }
 
   private addMarkersToMap(): void {
-    this.markers.forEach(marker => {
+    this.markers.forEach((marker, i) => {
       const newMarker = L.marker(marker.coordinates, {
         icon: L.icon({
           iconSize: [25, 41],
@@ -78,6 +101,10 @@ export class MapComponent implements AfterViewInit {
           direction: "bottom"
         })
         .openTooltip();
+      newMarker.on("click", () => {
+        this.showModal = true;
+        this.activeMarker = marker;
+      });
     });
   }
 
@@ -88,5 +115,12 @@ export class MapComponent implements AfterViewInit {
 
   private zoomToMarkers(): void {
     this.map.fitBounds(this.getMarkerBounds());
+  }
+
+  public onCloseModal(): void {
+    this.showModal = false;
+    this.map.eachLayer(layer => {
+      layer.openTooltip();
+    });
   }
 }
