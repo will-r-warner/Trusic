@@ -33,7 +33,7 @@
               "src/assets",
               "src/manifest.webmanifest"
             ],
-            "styles": ["src/styles.scss"],
+            "styles": ["src/styles.scss", "src/assets/styles/leaflet.scss"],
             "scripts": []
           },
           "configurations": {
@@ -104,7 +104,7 @@
                 "output": "assets/"
               }
             ],
-            "styles": ["src/styles.scss"],
+            "styles": ["src/styles.scss", "src/assets/styles/leaflet.scss"],
             "scripts": []
           }
         },

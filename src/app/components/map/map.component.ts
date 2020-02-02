@@ -71,10 +71,11 @@ export class MapComponent implements AfterViewInit {
       });
 
       newMarker.addTo(this.map);
-      newMarker.bindTooltip(marker.name, {
-        direction: "top",
-        offset: L.point(0, -30)
-      });
+      newMarker
+        .bindTooltip(marker.name, {
+          direction: "bottom"
+        })
+        .openTooltip();
     });
   }
 
